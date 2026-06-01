@@ -23,7 +23,7 @@ JAUNE      = "#FFCB64"
 BLEU_PALE  = "#D5EEFD"
 
 # ─── API KEY ──────────────────────────────────────────────────────────────────
-API_KEY = "MACLE"
+API_KEY = "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"
 
 # ─── CSS BABILOU ──────────────────────────────────────────────────────────────
 st.markdown(f"""
