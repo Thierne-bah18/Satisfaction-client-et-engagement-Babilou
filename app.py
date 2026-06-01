@@ -23,7 +23,7 @@ JAUNE      = "#FFCB64"
 BLEU_PALE  = "#D5EEFD"
 
 # ─── API KEY ──────────────────────────────────────────────────────────────────
-API_KEY = "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"
+API_KEY =st.secrets["ANTHROPIC_API_KEY"]
 
 # ─── CSS BABILOU ──────────────────────────────────────────────────────────────
 st.markdown(f"""
