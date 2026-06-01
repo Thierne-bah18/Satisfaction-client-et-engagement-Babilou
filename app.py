@@ -23,7 +23,7 @@ JAUNE      = "#FFCB64"
 BLEU_PALE  = "#D5EEFD"
 
 # ─── API KEY ──────────────────────────────────────────────────────────────────
-API_KEY = "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"
+API_KEY = "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"
 
 # ─── CSS BABILOU ──────────────────────────────────────────────────────────────
 st.markdown(f"""
