@@ -5,6 +5,23 @@ import plotly.express as px
 from collections import Counter
 import re
 import anthropic
+#mot de passe
+def check_password():
+    if "password_ok" not in st.session_state:
+        st.session_state.password_ok = False
+
+    if not st.session_state.password_ok:
+        password = st.text_input("Mot de passe", type="password")
+
+        if st.button("Se connecter"):
+            if password == st.secrets["APP_PASSWORD"]:
+                st.session_state.password_ok = True
+                st.rerun()
+            else:
+                st.error("Mot de passe incorrect")
+        st.stop()
+
+check_password()
 
 # ─── CONFIG ───────────────────────────────────────────────────────────────────
 st.set_page_config(
